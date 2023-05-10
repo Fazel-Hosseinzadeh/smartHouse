@@ -64,7 +64,7 @@ body{
   }
 
  /*  Overriding the slider default Style  */
-.slider {
+.switch-slider, .fan-switch-slider{
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     width: 60px;
@@ -79,12 +79,12 @@ body{
   }
   
   /* Mouse-over effects */
-  .slider:hover {
+  .switch-slider:hover, .fan-switch-slider:hover {
     opacity: 1;
   }
   
   /*  slider handle */
-  .slider::-webkit-slider-thumb {
+  .switch-slider::-webkit-slider-thumb, .fan-switch-slider::-webkit-slider-thumb{
     -webkit-appearance: none; /* Override default look */
     appearance: none;
     width: 15px; 
@@ -106,7 +106,13 @@ body{
   
 
   
-
+  #footer{
+    
+    width: 100%;
+    float: left;
+    margin: 1rem;
+    height: 5rem;
+}
 
 
 
