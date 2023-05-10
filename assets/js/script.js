@@ -7,68 +7,68 @@ document.addEventListener('DOMContentLoaded' , function(){
     let switchs = document.getElementsByTagName('input');
     for (let swt of switchs){ 
         swt.addEventListener('click', function(){
-          let swType= this.getAttribute('data-type');
+            let swType= this.getAttribute('data-type');
           switch (swType) {
-            case living-room-light1:
-                
+                case 'whole-house-lights':
+                    toggleSwitch(swType);
                 break;
-                case whole-house-lights:
-                
+                case 'whole-house-desired-temp':
+                    alert("hi");
+                    sliderReader(swType);
                 break;
-                case whole-house-desired-temp:
-                
+                case 'whole-house-fans':
+                    toggleSwitch(swType);
                 break;
-                case whole-house-fans:
-                
+                case 'kitchen-light':
+                    toggleSwitch(swType);
                 break;
-                case kitchen-light:
-                
+                case 'kitchen-desired-temp':
+                    sliderReader(swType);
                 break;
-                case kitchen-desired-temp:
-                
+                case 'living-room-light1':
+                    toggleSwitch(swType);
                 break;
-                case living-room-light1:
-                
+                case 'living-room-light2':
+                    toggleSwitch(swType);
                 break;
-                case living-room-light2:
-                
+                case 'living-room-desired-temp':
+                    sliderReader(swType);
                 break;
-                case living-room-desired-temp:
-                
+                case 'living-room-fan':
+                    toggleSwitch(swType);
                 break;
-                case living-room-fan:
-                
-                break;
-                case living-room-fan-speed:
-                
+                case 'living-room-fan-speed':
+                    sliderReader(swType);
                 break;
 
-                case bed-room-light:
+                case 'bed-room-light':
+                    toggleSwitch(swType);
+                break;
                 
+                case 'bed-room-desired-temp':
+                    sliderReader(swType);
                 break;
 
-                case bed-room-desired-temp:
-                
-                break;
-
-                case garage-light:
-                
+                case 'garage-light':
+                    toggleSwitch(swType);
                 break;
 
             default:
                 break;
           }
+          
         })
     }
     })
 
 
-function toggleSwitch(){
+function toggleSwitch(dataType){
+    
+    }
 
-}
 
-function sliderReader(){
-
+function sliderReader(dataType){
+    
 }
 
 function lightOnOff(){
