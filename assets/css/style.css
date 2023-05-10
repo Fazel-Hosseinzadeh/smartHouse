@@ -9,7 +9,7 @@ body{
 }
 
 #logo{
-    font-family: 'Monofett';
-    color:white;
+float: left;
+width: 30%;
 
 }
