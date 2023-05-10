@@ -10,11 +10,13 @@
     border: none;
 }
 
+/*body styling*/
 body{
     background: #121212;
     color: whitesmoke;
 }
 
+/*header styling*/
 #header{
     display: flex;
     justify-content: center;
@@ -24,6 +26,7 @@ body{
     
 }
 
+/*logo styling*/
 #logo{
     text-align: center;
     width: 50%;
@@ -34,6 +37,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/*All the places styling*/
 .controlling-places{
     
     clear: both;
@@ -47,6 +52,7 @@ body{
     text-align: center;
 }
 
+/*styling all the lights header bottons img*/
 .light{
     display: flex;
     margin: 2rem 1rem;
@@ -67,16 +73,19 @@ body{
     width: 30%;
 }
 
-
+/*styling all the temp header bottons img*/
 .temp h4, .temp input, .temp span{
     display: inline-block;
     margin: 2rem 1rem;
 }
 
+
 /*Overriding the margin left value for desired-temp  */
  #places-wrapper .temp .desired-temp{
     margin-left: 40%;
 }
+
+
 
  /*  Overriding the slider default Style  */
 .switch-slider, .fan-switch-slider{
