@@ -3,6 +3,12 @@
 /*Import Google fornt 'Monofett','Roboto Mono'*/
 @import url('https://fonts.googleapis.com/css2?family=Monofett&family=Roboto+Mono&display=swap');
 
+/* reseting to zero margins paddings and borders from all the elements*/
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body{
     background: #121212;
@@ -10,12 +16,41 @@ body{
 }
 
 #header{
+    
     width: 100%;
     float: left;
     margin: 1rem;
 }
 
 #logo{
-width: 30%;
+    width: 30%;
+    margin: 1rem 2rem;
+}
+
+
+.controlling_places{
+    float: left;
+    width: 80%;
+    height: 10rem;
+    border: 1px solid whitesmoke;
+    margin: 1rem 2rem;
+}
+
+#whole_house{
+
+}
+
+#kitchen{
+
+}
+#living_room{
+
+}
+
+#bed_room{
+
+}
+#garage{
+
 }
 
