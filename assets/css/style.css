@@ -5,5 +5,11 @@
 
 
 body{
-    background: blue;
+    background: #121212;
+}
+
+#logo{
+    font-family: 'Monofett';
+    color:white;
+
 }
