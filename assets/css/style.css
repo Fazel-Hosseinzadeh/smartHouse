@@ -48,20 +48,23 @@ body{
 }
 
 .light{
-    margin: 5rem 2rem;
+    display: flex;
+    margin: 2rem 1rem;
+    
 }
-.light h3{
+.header-light{
     float: left;
-    clear: left;
-    width: 50%;
+    width: 30%;
 }
 
-.light img{
+.light-img{
     float:  right; 
+    width: 30%;
 }
 
-.light input{
+.light-input{
     margin: 0 auto;
+    width: 30%;
 }
 
  /*  Overriding the slider default Style  */

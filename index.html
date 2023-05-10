@@ -22,9 +22,16 @@
             <div id="whole-house" class="controlling-places">
             <h2 class="control-header">Whole House</h2>
                 <div class="light">
-                    <h3 id="whole-light">Whole Lights</h3>
-                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="whole-house-lights">
-                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    <div class="header-light">
+                    <h3>Whole Lights</h3>
+                    </div>
+                    <div class="light-input">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="whole-house-lights">
+                    </div>
+                    <div class="light-img">
+                        <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    </div>
+                    
                 </div>
                 <div class="temp">
                     <h3 id="whole-temp">Whole House Temperature</h3>
@@ -33,18 +40,24 @@
                     <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="whole-house-desired-temp">
                     <span id="temp-value">15</span>
                 </div>
-            <div class="fan">
-                <h3 id="whole-house-fans">Whole House Fans </h3>
-                    <input type="range" min="1" step="1" max="2" value="1" class="fan-switch-slider" id="whole-house-fans">
-                    <img src="./assets/images/fan.png" alt="fan" class="fan-img">
-            </div>
+                <div class="fan">
+                    <h3 id="whole-house-fans">Whole House Fans </h3>
+                        <input type="range" min="1" step="1" max="2" value="1" class="fan-switch-slider" id="whole-house-fans">
+                        <img src="./assets/images/fan.png" alt="fan" class="fan-img">
+                </div>
             </div>
             <div id="kitchen" class="controlling-places">
                 <h2 class="control-header">Kitchen</h2>
                 <div class="light">
-                    <h3 id="kitchen-light">Kitchen Light</h3>
-                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="kitchen-light">
-                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    <div class="header-light">
+                    <h3>Kitchen Light</h3>
+                    </div>
+                    <div class="light-input">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="kitchen-light">
+                    </div>
+                    <div class="light-img">
+                        <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    </div>
                 </div>
                 <div class="temp">
                     <h3 id="kitchen-light">Kitchen Temperature</h3>
@@ -57,14 +70,28 @@
             <div id="living-room" class="controlling-places">
                 <h2 class="control-header">Living Room</h2>
                 <div class="light">
-                    <h3 id="Living-room-light1">Living Room Light #1</h3>
-                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light1">
-                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
-                    <br><br>
-                    <h3 id="Living-room-light2">Living Room Light #2</h3>
-                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light2">
-                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    <div class="header-light">
+                    <h3>Living Room Light #1</h3>
+                    </div>
+                    <div class="light-input">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light1">
+                    </div>
+                    <div class="light-img">
+                        <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    </div>
                 </div>
+                <div class="light">
+                    <div class="header-light">
+                        <h3>Living Room Light #2</h3>
+                    </div>
+                    <div class="light-input">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light2">
+                    </div>
+                    <div class="light-img">
+                        <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    </div>
+                </div>    
+            
                 <div class="temp">
                     <h4 id="current-temp">Current Temperature is <span id="living-room-current-temp">15</span></h4>
                     <h4 id="desired-temp">Set Desired Temperature</h4>
@@ -83,9 +110,16 @@
             <div id="bed-room" class="controlling-places">
                 <h2 class="control-header">Bed Room</h2>
                 <div class="light">
-                    <h3 id="bed-room-light">Bed Room Light</h3>
-                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="bed-room-light">
-                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    <div class="header-light">
+                    <h3>Bed Room Light</h3>
+                    </div>  
+                    <div class="light-input">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="bed-room-light">
+                    </div>
+                    <div class="light-img">
+                        <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    </div>
+                    
                 </div>
                 <div class="temp">
                     <h4 id="current-temp">Current Temperature is <span id="current-temp-bed-room">15</span></h4>
@@ -97,9 +131,16 @@
             <div id="garage" class="controlling-places">
                 <h2 class="control-header">Garage</h2>
                 <div class="light">
-                    <h3 id="garage-light">Garage Light</h3>
-                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="garage-light">
-                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    <div class="header-light">
+                    <h3>Garage Light</h3>
+                    </div>
+                    <div class="light-input">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="garage-light">
+                    </div>
+                    <div class="light-img">
+                        <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    </div>
+                    
                 </div>
             </div>
         </div>
