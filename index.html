@@ -83,13 +83,12 @@
             <h2 class="control-header">Bed Room</h2>
             <div class="light">
                 <h3 id="bed-room-light">Bed Room Light</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="bed-room-light">
+                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="bed-room-light">
                 <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
             </div>
             <div class="temp">
-                <h4 id="current-temp">Current Temperature</h4>
-                <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-current-temp">
-                <h4 id="desired-temp">Desired Temperature</h4>
+                <h4 id="current-temp">Current Temperature is <span id="current-temp-bed-room">15</span></h4>
+                <h4 id="desired-temp">Set Desired Temperature</h4>
                 <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-desired-temp">
                 <span id="temp-value">15</span>
             </div>
@@ -98,7 +97,7 @@
             <h2 class="control-header">Garage</h2>
             <div class="light">
                 <h3 id="garage-light">Garage Light</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="garage-light">
+                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="garage-light">
                 <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
             </div>
         </div>
