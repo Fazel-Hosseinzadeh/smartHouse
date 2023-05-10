@@ -18,11 +18,37 @@
     </header>
 
     <section >
-        <div id="whole_house" class="controlling_places">whole_house</div>
-        <div id="kitchen" class="controlling_places">kitchen</div>
-        <div id="living_room" class="controlling_places">living_room</div>
-        <div id="bed_room" class="controlling_places">bed_room</div>
-        <div id="garage" class="controlling_places">garage</div>
+        <div id="whole_house" class="controlling_places">
+           <h2 class="control_header">Whole House</h2>
+           <div class="light">
+           </div>
+           <div class="temp"></div>
+           <div class="fan"></div>
+
+        </div>
+        <div id="kitchen" class="controlling_places">
+            <h2 class="control_header">Kitchen</h2>
+            <div class="light">
+                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="kitchen_light">
+            </div>
+            <div class="temp"></div>
+        </div>
+        <div id="living_room" class="controlling_places">
+            <h2 class="control_header">Living Room</h2>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="temp"></div>
+            <div class="fan"></div>
+        </div>
+        <div id="bed_room" class="controlling_places">
+            <h2 class="control_header">Bed Room</h2>
+            <div class="light"></div>
+            <div class="temp"></div>
+        </div>
+        <div id="garage" class="controlling_places">
+            <h2 class="control_header">Garage</h2>
+            <div class="light"></div>
+        </div>
     </section>
     <footer class="footer"></footer>
     <script src="./assets/js/script.js"></script> 
