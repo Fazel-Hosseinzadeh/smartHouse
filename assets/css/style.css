@@ -67,6 +67,17 @@ body{
     width: 30%;
 }
 
+
+.temp h4, .temp input, .temp span{
+    display: inline-block;
+    margin: 2rem 1rem;
+}
+
+/*Overriding the margin left value for desired-temp  */
+ #places-wrapper .temp .desired-temp{
+    margin-left: 40%;
+}
+
  /*  Overriding the slider default Style  */
 .switch-slider, .fan-switch-slider{
     -webkit-appearance: none;  /* Override default CSS styles */
