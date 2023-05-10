@@ -18,87 +18,89 @@
     </header>
 
     <section >
-        <div id="whole-house" class="controlling-places">
-           <h2 class="control-header">Whole House</h2>
-            <div class="light">
-                <h3 id="whole-light">Whole Lights</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="whole-house-lights">
-                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
-            </div>
-            <div class="temp">
-                <h3 id="whole-temp">Whole House Temperature</h3>
-                <h4 id="current-temp">Current Temperature is: <span id="whole-house-current-temp">15</span></h4>
-                <h4 id="desired-temp">Set Desired Temperature</h4>
-                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="whole-house-desired-temp">
-                <span id="temp-value">15</span>
-            </div>
-           <div class="fan">
-            <h3 id="whole-house-fans">Whole House Fans </h3>
-                <input type="range" min="1" step="1" max="2" value="1" class="fan-switch-slider" id="whole-house-fans">
-                <img src="./assets/images/fan.png" alt="fan" class="fan-img">
-           </div>
-        </div>
-        <div id="kitchen" class="controlling-places">
-            <h2 class="control-header">Kitchen</h2>
-            <div class="light">
-                <h3 id="kitchen-light">Kitchen Light</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="kitchen-light">
-                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
-            </div>
-            <div class="temp">
-                <h3 id="kitchen-light">Kitchen Temperature</h3>
-                <h4 id="current-temp">Current Temperature is <span id="kitchen-crrent-temp">15</span></h4>
-                <h4 id="desired-temp">Set Desired Temperature</h4>
-                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="kitchen-desired-temp">
-                <span id="temp-value">15</span>
-            </div>
-        </div>
-        <div id="living-room" class="controlling-places">
-            <h2 class="control-header">Living Room</h2>
-            <div class="light">
-                <h3 id="Living-room-light1">Living Room Light #1</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light1">
-                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
-                <br><br>
-                <h3 id="Living-room-light2">Living Room Light #2</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light2">
-                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
-            </div>
-            <div class="temp">
-                <h4 id="current-temp">Current Temperature is <span id="living-room-current-temp">15</span></h4>
-                <h4 id="desired-temp">Set Desired Temperature</h4>
-                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="living-room-desired-temp">
-                <span id="temp-value">15</span>
-            </div>
+        <div id="places-wrapper">
+            <div id="whole-house" class="controlling-places">
+            <h2 class="control-header">Whole House</h2>
+                <div class="light">
+                    <h3 id="whole-light">Whole Lights</h3>
+                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="whole-house-lights">
+                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                </div>
+                <div class="temp">
+                    <h3 id="whole-temp">Whole House Temperature</h3>
+                    <h4 id="current-temp">Current Temperature is: <span id="whole-house-current-temp">15</span></h4>
+                    <h4 id="desired-temp">Set Desired Temperature</h4>
+                    <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="whole-house-desired-temp">
+                    <span id="temp-value">15</span>
+                </div>
             <div class="fan">
-                <h3 id="Living-room-fan">Living Room Fan </h3>
-                <input type="range" min="1" step="1" max="2" value="1" class="fan-switch-slider" id="living-room-fans">
-                <input type="range" min="1" step="1" max="3" value="1" class="fan-slider" id="living-room-fan">
-                <span id="fan-speed">1</span>
-                <img src="./assets/images/fan.png" alt="fan" class="fan-img">
-                
+                <h3 id="whole-house-fans">Whole House Fans </h3>
+                    <input type="range" min="1" step="1" max="2" value="1" class="fan-switch-slider" id="whole-house-fans">
+                    <img src="./assets/images/fan.png" alt="fan" class="fan-img">
             </div>
-        </div>
-        <div id="bed-room" class="controlling-places">
-            <h2 class="control-header">Bed Room</h2>
-            <div class="light">
-                <h3 id="bed-room-light">Bed Room Light</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="bed-room-light">
-                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
             </div>
-            <div class="temp">
-                <h4 id="current-temp">Current Temperature is <span id="current-temp-bed-room">15</span></h4>
-                <h4 id="desired-temp">Set Desired Temperature</h4>
-                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-desired-temp">
-                <span id="temp-value">15</span>
+            <div id="kitchen" class="controlling-places">
+                <h2 class="control-header">Kitchen</h2>
+                <div class="light">
+                    <h3 id="kitchen-light">Kitchen Light</h3>
+                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="kitchen-light">
+                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                </div>
+                <div class="temp">
+                    <h3 id="kitchen-light">Kitchen Temperature</h3>
+                    <h4 id="current-temp">Current Temperature is <span id="kitchen-crrent-temp">15</span></h4>
+                    <h4 id="desired-temp">Set Desired Temperature</h4>
+                    <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="kitchen-desired-temp">
+                    <span id="temp-value">15</span>
+                </div>
             </div>
-        </div>
-        <div id="garage" class="controlling-places">
-            <h2 class="control-header">Garage</h2>
-            <div class="light">
-                <h3 id="garage-light">Garage Light</h3>
-                <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="garage-light">
-                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+            <div id="living-room" class="controlling-places">
+                <h2 class="control-header">Living Room</h2>
+                <div class="light">
+                    <h3 id="Living-room-light1">Living Room Light #1</h3>
+                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light1">
+                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                    <br><br>
+                    <h3 id="Living-room-light2">Living Room Light #2</h3>
+                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="living-room-light2">
+                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                </div>
+                <div class="temp">
+                    <h4 id="current-temp">Current Temperature is <span id="living-room-current-temp">15</span></h4>
+                    <h4 id="desired-temp">Set Desired Temperature</h4>
+                    <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="living-room-desired-temp">
+                    <span id="temp-value">15</span>
+                </div>
+                <div class="fan">
+                    <h3 id="Living-room-fan">Living Room Fan </h3>
+                    <input type="range" min="1" step="1" max="2" value="1" class="fan-switch-slider" id="living-room-fans">
+                    <input type="range" min="1" step="1" max="3" value="1" class="fan-slider" id="living-room-fan">
+                    <span id="fan-speed">1</span>
+                    <img src="./assets/images/fan.png" alt="fan" class="fan-img">
+                    
+                </div>
+            </div>
+            <div id="bed-room" class="controlling-places">
+                <h2 class="control-header">Bed Room</h2>
+                <div class="light">
+                    <h3 id="bed-room-light">Bed Room Light</h3>
+                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="bed-room-light">
+                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                </div>
+                <div class="temp">
+                    <h4 id="current-temp">Current Temperature is <span id="current-temp-bed-room">15</span></h4>
+                    <h4 id="desired-temp">Set Desired Temperature</h4>
+                    <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-desired-temp">
+                    <span id="temp-value">15</span>
+                </div>
+            </div>
+            <div id="garage" class="controlling-places">
+                <h2 class="control-header">Garage</h2>
+                <div class="light">
+                    <h3 id="garage-light">Garage Light</h3>
+                    <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" id="garage-light">
+                    <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                </div>
             </div>
         </div>
     </section>

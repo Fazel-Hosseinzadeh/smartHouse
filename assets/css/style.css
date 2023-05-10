@@ -16,24 +16,31 @@ body{
 }
 
 #header{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
-    float: left;
-    margin: 1rem;
+    
 }
 
 #logo{
-    width: 30%;
+    text-align: center;
+    width: 50%;
     margin: 1rem 2rem;
 }
 
-
+#places-wrapper{
+    justify-content: center;
+    align-items: center;
+}
 .controlling-places{
-    float: left;
+    
+    clear: both;
     width: 80%;
     height: auto;
     border: 1px solid whitesmoke;
-    margin: 1rem 2rem;
+    margin: auto;
 }
 
 .control-header{
