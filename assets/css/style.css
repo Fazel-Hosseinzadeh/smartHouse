@@ -47,28 +47,22 @@ body{
     text-align: center;
 }
 
-#whole-house{
-
+.light{
+    margin: 5rem 2rem;
+}
+.light h3{
+    float: left;
+    clear: left;
+    width: 50%;
 }
 
-#kitchen{
-
-}
-#living-room{
-
+.light img{
+    float:  right; 
 }
 
-#bed_room{
-
+.light input{
+    margin: 0 auto;
 }
-#garage{
-
-}
-
-
-.light {
-    
-  }
 
  /*  Overriding the slider default Style  */
 .switch-slider, .fan-switch-slider{
