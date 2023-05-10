@@ -18,36 +18,56 @@
     </header>
 
     <section >
-        <div id="whole_house" class="controlling_places">
-           <h2 class="control_header">Whole House</h2>
+        <div id="whole-house" class="controlling-places">
+           <h2 class="control-header">Whole House</h2>
            <div class="light">
+            <h3 id="whole-light">Whole Lights</h3>
+            <input type="range" min="0" step="1" max="1" value="0" class="slider" id="whole-house-lights">
+            <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
            </div>
            <div class="temp"></div>
            <div class="fan"></div>
 
         </div>
-        <div id="kitchen" class="controlling_places">
-            <h2 class="control_header">Kitchen</h2>
+        <div id="kitchen" class="controlling-places">
+            <h2 class="control-header">Kitchen</h2>
             <div class="light">
-                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="kitchen_light">
+                <h3 id="kitchen-light">Kitchen Light</h3>
+                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="kitchen-light">
+                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
             </div>
             <div class="temp"></div>
         </div>
-        <div id="living_room" class="controlling_places">
-            <h2 class="control_header">Living Room</h2>
-            <div class="light"></div>
-            <div class="light"></div>
+        <div id="living-room" class="controlling-places">
+            <h2 class="control-header">Living Room</h2>
+            <div class="light">
+                <h3 id="Living-room-light1">Living Room Light #1</h3>
+                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="living-room-light1">
+                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+                <br><br>
+                <h3 id="Living-room-light2">Living Room Light #2</h3>
+                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="living-room-light2">
+                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+            </div>
             <div class="temp"></div>
             <div class="fan"></div>
         </div>
-        <div id="bed_room" class="controlling_places">
-            <h2 class="control_header">Bed Room</h2>
-            <div class="light"></div>
+        <div id="bed-room" class="controlling-places">
+            <h2 class="control-header">Bed Room</h2>
+            <div class="light">
+                <h3 id="bed-room-light">Bed Room Light</h3>
+                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="bed-room-light">
+                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+            </div>
             <div class="temp"></div>
         </div>
-        <div id="garage" class="controlling_places">
-            <h2 class="control_header">Garage</h2>
-            <div class="light"></div>
+        <div id="garage" class="controlling-places">
+            <h2 class="control-header">Garage</h2>
+            <div class="light">
+                <h3 id="garage-light">Garage Light</h3>
+                <input type="range" min="0" step="1" max="1" value="0" class="slider" id="garage-light">
+                <img src="./assets/images/light.png" alt="light-bulb" class="light-img">
+            </div>
         </div>
     </section>
     <footer class="footer"></footer>
