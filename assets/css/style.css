@@ -96,7 +96,7 @@ body{
   }
   
 
-  .light-img{
+  .light-img , .fan-img{
     width :3rem;
     height: 3rem;
     background-color: gray;
