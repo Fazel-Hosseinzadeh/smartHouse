@@ -6,10 +6,16 @@
 
 body{
     background: #121212;
+    color: whitesmoke;
+}
+
+#header{
+    width: 100%;
+    float: left;
+    margin: 1rem;
 }
 
 #logo{
-float: left;
 width: 30%;
-
 }
+
