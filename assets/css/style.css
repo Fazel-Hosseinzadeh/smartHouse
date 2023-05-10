@@ -92,17 +92,18 @@ body{
 
 .fan h3 , .fan input, .fan img{
     display: inline-block;
-    margin: auto 20% auto 1rem ;
+    margin: auto 20rem auto 1rem ;
 }
 .fan img{
     float: right;
     margin-right: 0;
     margin-left: 2rem;
 }
-.fan .fan-switch-slider{
+.fan .fan-slider{
     margin-left: 10rem;
+
 }
-.fan #living-room-fan-speed{
+#living-room .fan input{
     margin-right: 0;
 }
 .fan span{
