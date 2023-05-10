@@ -30,8 +30,9 @@
             <h4 id="current-temp">Current Temperature</h4>
             <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="whole-house-current-temp">
             <h4 id="desired-temp">Desired Temperature</h4>
-            <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="whole-house-desired-temp">
-           </div>
+            <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="whole-house-desired-temp">
+            <span id="temp-value">15</span>
+        </div>
            <div class="fan">
             <h3 id="whole-house-fans">Whole House Fans </h3>
                 <input type="range" min="1" step="1" max="3" value="1" class="fan-slider" id="whole-house-fans">
@@ -49,7 +50,8 @@
                 <h4 id="current-temp">Current Temperature</h4>
                 <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="kitchen-current-temp">
                 <h4 id="desired-temp">Desired Temperature</h4>
-                <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="kitchen-desired-temp">
+                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="kitchen-desired-temp">
+                <span id="temp-value">15</span>
             </div>
         </div>
         <div id="living-room" class="controlling-places">
@@ -67,7 +69,8 @@
                 <h4 id="current-temp">Current Temperature</h4>
                 <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="living-room-current-temp">
                 <h4 id="desired-temp">Desired Temperature</h4>
-                <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="living-room-desired-temp">
+                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="living-room-desired-temp">
+                <span id="temp-value">15</span>
             </div>
             <div class="fan">
                 <h3 id="Living-room-fan">Living Room Fan </h3>
@@ -86,7 +89,8 @@
                 <h4 id="current-temp">Current Temperature</h4>
                 <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-current-temp">
                 <h4 id="desired-temp">Desired Temperature</h4>
-                <input type="number" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-desired-temp">
+                <input type="range" min="-5" step="1" max="35" value="16" class="temp" id="bed-room-desired-temp">
+                <span id="temp-value">15</span>
             </div>
         </div>
         <div id="garage" class="controlling-places">
