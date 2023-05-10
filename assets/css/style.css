@@ -1,3 +1,9 @@
+
+
+/*Import Google fornt 'Monofett','Roboto Mono'*/
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Roboto+Mono&display=swap');
+
+
 body{
     background: blue;
 }
