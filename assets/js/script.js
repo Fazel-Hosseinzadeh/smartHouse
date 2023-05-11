@@ -63,6 +63,8 @@ function toggleSwitch(ob){
                     document.getElementById('whole-house-fans').style.background= 'red';
                     }
             break;
+
+            /*controling the kitchen light */
             case 'kitchen-light':
             if(ob.value ==='1'){     
                 document.getElementById('kitchen-light-img').style.background= 'yellow';
@@ -72,6 +74,38 @@ function toggleSwitch(ob){
                 document.getElementById('kitchen-light').style.background= 'red';
                 }
         break;
+
+            /*controling the living room light1 */
+            case 'living-room-light1':
+                if(ob.value ==='1'){     
+                    document.getElementById('living-room-light1-img').style.background= 'yellow';
+                    document.getElementById('living-room-light1').style.background= 'green';
+                } else{
+                    document.getElementById('living-room-light1-img').style.background= 'gray';
+                    document.getElementById('living-room-light1').style.background= 'red';
+                    }
+            break;
+
+            /*controling the living room light2 */
+            case 'living-room-light2':
+                if(ob.value ==='1'){     
+                    document.getElementById('living-room-light2-img').style.background= 'yellow';
+                    document.getElementById('living-room-light2').style.background= 'green';
+                } else{
+                    document.getElementById('living-room-light2-img').style.background= 'gray';
+                    document.getElementById('living-room-light2').style.background= 'red';
+                    }
+            break;
+            /*controling the living room fan */
+            case 'living-room-fan':
+                if(ob.value ==='1'){     
+                    document.getElementById('living-room-fan-img').style.background= 'blue';
+                    document.getElementById('living-room-fan').style.background= 'green';
+                } else{
+                    document.getElementById('living-room-fan-img').style.background= 'gray';
+                    document.getElementById('living-room-fan').style.background= 'red';
+                    }
+            break;
 
 
         default:
@@ -89,10 +123,22 @@ function sliderReader(ob){
             document.getElementById('whole-house-temp-value').innerHTML=  document.getElementById('whole-house-temp-slider').value;
         break;
 
-        /*setting the whole house temp */
+        /*setting the kitchen temp */
         case 'kitchen-desired-temp':
             document.getElementById('kitchen-temp-value').innerHTML=  document.getElementById('kitchen-temp-slider').value;
         break;
+
+        /*setting the living room temp */
+        case 'living-room-desired-temp':
+            document.getElementById('living-room-temp-value').innerHTML=  document.getElementById('living-room-temp-slider').value;
+        break;
+
+        /*setting the living room fan speed */
+        case 'living-room-fan-speed':
+            document.getElementById('living-room-fan-speed-value').innerHTML=  document.getElementById('living-room-fan-speed').value;
+        break;
+
+        
 
         default:
         break;
