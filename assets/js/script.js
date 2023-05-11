@@ -53,6 +53,17 @@ function toggleSwitch(ob){
                     }
             break;
 
+            /*controling the whole house fans */
+            case 'whole-house-fans':
+                if(ob.value ==='1'){     
+                    document.getElementById('whole-house-fans-img').style.background= 'blue';
+                    document.getElementById('whole-house-fans').style.background= 'green';
+                } else{
+                    document.getElementById('whole-house-fans-img').style.background= 'gray';
+                    document.getElementById('whole-house-fans').style.background= 'red';
+                    }
+            break;
+
 
         default:
             break;
@@ -62,6 +73,7 @@ function toggleSwitch(ob){
 
 
 function sliderReader(ob){
+ 
     
     
 }
