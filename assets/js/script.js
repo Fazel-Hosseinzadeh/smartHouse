@@ -5,6 +5,10 @@
  */
 document.addEventListener('DOMContentLoaded' , function(){
 
+    /*Initially the fan speed slider for living room is disabled*/
+    document.getElementById('living-room-fan-speed').disabled = true;
+
+
     let switchs = document.getElementsByTagName('input');
     for (let swt of switchs){ 
         swt.addEventListener('input', function(){
@@ -101,9 +105,11 @@ function toggleSwitch(ob){
                 if(ob.value ==='1'){     
                     document.getElementById('living-room-fan-img').style.background= 'blue';
                     document.getElementById('living-room-fan').style.background= 'green';
+                    document.getElementById('living-room-fan-speed').disabled = false;
                 } else{
                     document.getElementById('living-room-fan-img').style.background= 'gray';
                     document.getElementById('living-room-fan').style.background= 'red';
+                    document.getElementById('living-room-fan-speed').disabled = true;
                     }
             break;
 
