@@ -124,6 +124,17 @@ function toggleSwitch(ob){
                     }
             break;
 
+            /*controling the Garage light */
+            case 'garage-light':
+                if(ob.value ==='1'){     
+                    document.getElementById('garage-light-img').style.background= 'yellow';
+                    document.getElementById('garage-light').style.background= 'green';
+                } else{
+                    document.getElementById('garage-light-img').style.background= 'gray';
+                    document.getElementById('garage-light').style.background= 'red';
+                    }
+            break;
+
         default:
             break;
     }
