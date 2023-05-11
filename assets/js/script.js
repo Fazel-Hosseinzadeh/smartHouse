@@ -73,6 +73,8 @@ function toggleSwitch(ob){
                     document.getElementById('whole-house-fans').style.background= 'red';
                     document.getElementById('whole-house-fans-span').innerHTML= 'OFF';
                     
+                    /*stopping fan animation for fan img*/
+                    fanStop(ob);
                     }
             break;
 
@@ -246,13 +248,26 @@ function fanRun(ob1){
     
 }
 function fanStop(ob1){
-    if(document.getElementById('living-room-fan-img').classList.contains('run3')){
-        document.getElementById('living-room-fan-img' ).classList.remove('run3');
+    if(ob1.getAttribute('data-type')==='living-room-fan'){   
+        if(document.getElementById('living-room-fan-img').classList.contains('run3')){
+            document.getElementById('living-room-fan-img' ).classList.remove('run3');
 
-    } else if(document.getElementById('living-room-fan-img').classList.contains('run2')){
-        document.getElementById('living-room-fan-img' ).classList.remove('run2');
+        } else if(document.getElementById('living-room-fan-img').classList.contains('run2')){
+            document.getElementById('living-room-fan-img' ).classList.remove('run2');
 
-    } else if(document.getElementById('living-room-fan-img').classList.contains('run1')) {
-        document.getElementById('living-room-fan-img').classList.remove('run1');
+        } else if(document.getElementById('living-room-fan-img').classList.contains('run1')) {
+            document.getElementById('living-room-fan-img').classList.remove('run1');
+        }
+    } else if (ob1.getAttribute('data-type')==='whole-house-fans'){
+        if(document.getElementById('whole-house-fans-img').classList.contains('run3')){
+            document.getElementById('whole-house-fans-img' ).classList.remove('run3');
+
+        } else if(document.getElementById('whole-house-fans-img').classList.contains('run2')){
+            document.getElementById('whole-house-fans-img' ).classList.remove('run2');
+
+        } else if(document.getElementById('whole-house-fans-img').classList.contains('run1')) {
+            document.getElementById('whole-house-fans-img').classList.remove('run1');
+        }
+
     }
 }
