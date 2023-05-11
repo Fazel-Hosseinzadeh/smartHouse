@@ -77,9 +77,11 @@ function toggleSwitch(ob){
             if(ob.value ==='1'){     
                 document.getElementById('kitchen-light-img').style.background= 'yellow';
                 document.getElementById('kitchen-light').style.background= 'green';
+                document.getElementById('kitchen-light-span').innerHTML= 'ON';
             } else{
                 document.getElementById('kitchen-light-img').style.background= 'gray';
                 document.getElementById('kitchen-light').style.background= 'red';
+                document.getElementById('kitchen-light-span').innerHTML= 'OFF';
                 }
         break;
 
