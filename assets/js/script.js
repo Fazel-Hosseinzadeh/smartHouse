@@ -41,17 +41,22 @@ document.addEventListener('DOMContentLoaded' , function(){
 
 
 function toggleSwitch(ob){
-    if(ob.getAttribute('data-type')==='whole-house-lights'){
-        if(ob.value ==='1'){     
-        document.getElementById('whole-house-lights-img').style.background= 'yellow';
-        document.getElementById('whole-house-lights').style.background= 'green';
-    } else{
-            document.getElementById('whole-house-lights-img').style.background= 'gray';
-            document.getElementById('whole-house-lights').style.background= 'red';
-        }
-        
-    }
+    switch (ob.getAttribute('data-type')) {
+            
+            case 'whole-house-lights':
+                if(ob.value ==='1'){     
+                    document.getElementById('whole-house-lights-img').style.background= 'yellow';
+                    document.getElementById('whole-house-lights').style.background= 'green';
+                } else{
+                    document.getElementById('whole-house-lights-img').style.background= 'gray';
+                    document.getElementById('whole-house-lights').style.background= 'red';
+                    }
+            break;
 
+
+        default:
+            break;
+    }
     
     }
 
