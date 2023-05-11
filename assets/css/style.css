@@ -71,6 +71,10 @@ body{
 .light-input{
     margin: 0 auto;
 }
+.light-input span{
+    margin: 1rem ;
+    vertical-align: super;
+}
 
 /*styling all the temp header bottons img*/
 .temp{
