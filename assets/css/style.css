@@ -115,13 +115,18 @@ body{
     padding: 0.5rem;
 }
 
-.temp .desired-temp-slider span, #living-room-fan-speed-value{
+.temp .desired-temp-slider span,.fan .fan-switch #living-room-fan-speed-value{
     background: #621a5a;
     font-size: 150%;
     border: white 1px solid;
     border-radius: 50%;
     padding: 0.5rem;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+    min-width: 2.3rem;
+    min-height: 2.3rem;
+
+    position: relative;
+    top: -15px;
 }
 
 /*styling all the fan header bottons img*/
