@@ -51,9 +51,11 @@ function toggleSwitch(ob){
                 if(ob.value ==='1'){     
                     document.getElementById('whole-house-lights-img').style.background= 'yellow';
                     document.getElementById('whole-house-lights').style.background= 'green';
+                    document.getElementById('whole-house-lights-span').innerHTML= 'ON';
                 } else{
                     document.getElementById('whole-house-lights-img').style.background= 'gray';
                     document.getElementById('whole-house-lights').style.background= 'red';
+                    document.getElementById('whole-house-lights-span').innerHTML= 'OFF';
                     }
             break;
 
