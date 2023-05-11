@@ -50,55 +50,49 @@ body{
 
 .control-header{
     text-align: center;
-    margin: 2rem;
+    margin: 1rem auto 4rem auto;
 }
+
 
 /*styling all the lights header bottons img*/
 .light{
     display: flex;
-    margin: 2rem 1rem;
-    
+    margin: 2rem 1rem 4rem 1rem;
 }
 .header-light {
     float: left;
-    
 }
 
 .light-img .desired-temp{
     float:  right; 
-    
 }
 
 .light-input{
     margin: 0 auto;
-    
 }
 
 /*styling all the temp header bottons img*/
 .temp{
     display: flex;
-    margin: 0 1rem;
-    
 }
 .current-temp {
     float: right;
     
 }
 .desired-temp-slider {
-     display: flex;
+    display: flex;
     float: left;
 }
 .desired-temp-header { 
-    
     margin: 0 auto;
-   
 }
 
 
 /*styling all the fan header bottons img*/
 .fan{
     display: flex;
-    margin: 2rem 1rem;
+    margin: 4rem 1rem 2rem 1rem;
+    
 }
 
 .fan-header{
