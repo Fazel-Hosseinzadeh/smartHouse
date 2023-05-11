@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded' , function(){
 
     let switchs = document.getElementsByTagName('input');
     for (let swt of switchs){ 
-        swt.addEventListener('click', function(){
+        swt.addEventListener('input', function(){
             let swType= this.getAttribute('data-type');
           switch (swType) {
             /*in case a switch is clicked */
@@ -73,7 +73,15 @@ function toggleSwitch(ob){
 
 
 function sliderReader(ob){
- 
+    switch (ob.getAttribute('data-type')) {
+        /*setting the whole house temp */    
+        case 'whole-house-desired-temp':
+            document.getElementById('whole-house-temp-value').innerHTML=  document.getElementById('whole-house-temp-slider').value;
+        break;
+
+        default:
+        break;
+    }
     
     
 }
