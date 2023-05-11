@@ -93,12 +93,17 @@ body{
 .desired-temp-header { 
     margin: 0 auto;
 }
+
+.temp .current-temp {
+    font-size: 120%;
+}
+
 /*style for current temps */
 .temp .current-temp span{
     background: white;
     border: black 1px solid;
     border-radius: 50%;
-    font-size: 200%;
+    font-size: 150%;
     color: brown;
     margin-left: 1rem;
     padding: 0.5rem;
