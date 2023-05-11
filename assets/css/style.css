@@ -71,7 +71,7 @@ body{
 .light-input{
     margin: 0 auto;
 }
-.light-input span{
+.light-input span, .fan-switch span{
     margin: 1rem ;
     vertical-align: super;
 }
