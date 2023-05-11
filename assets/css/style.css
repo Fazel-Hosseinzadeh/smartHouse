@@ -132,10 +132,13 @@ body{
     margin-left: 1rem;
     min-width: 2.3rem;
     min-height: 2.3rem;
-
-    position: relative;
-    top: -15px;
 }
+
+.temp .desired-temp-slider span{
+    position: relative;
+    top: -20px;
+}
+
 
 /*styling all the fan header bottons img*/
 .fan{
@@ -192,7 +195,7 @@ body{
     cursor: pointer; /* Cursor on hover */
   }
   
-
+/*styling the fan and light img */
   .light-img , .fan-img{
     width :3rem;
     height: 3rem;
