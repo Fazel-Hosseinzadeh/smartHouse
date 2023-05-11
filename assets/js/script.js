@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded' , function(){
     /*Initially the fan speed slider for living room is disabled*/
     document.getElementById('living-room-fan-speed').disabled = true;
 
-
+    /*Assigning listeners to inputs*/
     let switchs = document.getElementsByTagName('input');
     for (let swt of switchs){ 
         swt.addEventListener('input', function(){
@@ -113,6 +113,16 @@ function toggleSwitch(ob){
                     }
             break;
 
+            /*controling the bed room light */
+            case 'bed-room-light':
+                if(ob.value ==='1'){     
+                    document.getElementById('bed-room-light-img').style.background= 'yellow';
+                    document.getElementById('bed-room-light').style.background= 'green';
+                } else{
+                    document.getElementById('bed-room-light-img').style.background= 'gray';
+                    document.getElementById('bed-room-light').style.background= 'red';
+                    }
+            break;
 
         default:
             break;
@@ -144,7 +154,10 @@ function sliderReader(ob){
             document.getElementById('living-room-fan-speed-value').innerHTML=  document.getElementById('living-room-fan-speed').value;
         break;
 
-        
+        /*setting the bed room temp */
+        case 'bed-room-desired-temp':
+            document.getElementById('bed-room-temp-value').innerHTML=  document.getElementById('bed-room-temp-slider').value;
+        break;
 
         default:
         break;
