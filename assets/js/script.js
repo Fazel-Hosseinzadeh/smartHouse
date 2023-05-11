@@ -63,6 +63,15 @@ function toggleSwitch(ob){
                     document.getElementById('whole-house-fans').style.background= 'red';
                     }
             break;
+            case 'kitchen-light':
+            if(ob.value ==='1'){     
+                document.getElementById('kitchen-light-img').style.background= 'yellow';
+                document.getElementById('kitchen-light').style.background= 'green';
+            } else{
+                document.getElementById('kitchen-light-img').style.background= 'gray';
+                document.getElementById('kitchen-light').style.background= 'red';
+                }
+        break;
 
 
         default:
@@ -74,9 +83,15 @@ function toggleSwitch(ob){
 
 function sliderReader(ob){
     switch (ob.getAttribute('data-type')) {
+
         /*setting the whole house temp */    
         case 'whole-house-desired-temp':
             document.getElementById('whole-house-temp-value').innerHTML=  document.getElementById('whole-house-temp-slider').value;
+        break;
+
+        /*setting the whole house temp */
+        case 'kitchen-desired-temp':
+            document.getElementById('kitchen-temp-value').innerHTML=  document.getElementById('kitchen-temp-slider').value;
         break;
 
         default:
