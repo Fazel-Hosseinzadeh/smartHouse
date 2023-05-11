@@ -20,7 +20,7 @@
     <section >
         <div id="places-wrapper">
             <div id="whole-house" class="controlling-places">
-            <h2 class="control-header">Whole House</h2>
+                <h2 class="control-header">Whole House</h2>
                 <div class="light">
                     <div class="header-light">
                     <h3>Whole Lights</h3>
@@ -33,14 +33,17 @@
                     </div>
                     
                 </div>
-                
                 <div class="temp">
-                    <h4 class="current-temp">Current Temperature is: <span id="whole-house-current-temp">15</span></h4>
-                    <h4 class="desired-temp">
-                            Set Desired Temperature
+                    <div class="current-temp">
+                        <h4>Current Temperature is: <span id="whole-house-current-temp">15</span></h4>
+                    </div>
+                    <div class="desired-temp-header">
+                        <h4>Set Desired Temperature</h4>
+                    </div>
+                    <div class="desired-temp-slider">
                         <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="whole-house-desired-temp">
                         <span id="temp-value">15</span>
-                    </h4>
+                    </div>
                 </div>
                 <div class="fan">
                     <h3 id="whole-house-fans">Whole House Fans </h3>
@@ -62,12 +65,18 @@
                     </div>
                 </div>
                 <div class="temp">
-                    <h4 class="current-temp">Current Temperature is <span id="kitchen-crrent-temp">15</span></h4>
-                    <h4 class="desired-temp">
-                        Set Desired Temperature
+                    <div class="current-temp">
+                    <h4>Current Temperature is <span id="kitchen-crrent-temp">15</span></h4>
+                    </div>
+                    <div class="desired-temp-header">
+                        <h4>
+                            Set Desired Temperature
+                        </h4>
+                    </div>
+                    <div class="desired-temp-slider">
                         <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="kitchen-desired-temp">
                         <span id="temp-value">15</span>
-                    </h4>
+                    </div>
                 </div>
             </div>
             <div id="living-room" class="controlling-places">
@@ -96,12 +105,16 @@
                 </div>    
             
                 <div class="temp">
-                    <h4 class="current-temp">Current Temperature is <span id="living-room-current-temp">15</span></h4>
-                    <h4 class="desired-temp">
-                        Set Desired Temperature
+                    <div  class="current-temp">
+                        <h4>Current Temperature is <span id="living-room-current-temp">15</span></h4>
+                    </div>
+                    <div  class="desired-temp-header">
+                    <h4>Set Desired Temperature</h4>
+                    </div>
+                    <div class="desired-temp-slider">
                         <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="living-room-desired-temp">
                         <span id="temp-value">15</span>
-                    </h4>
+                    </div>
                 </div>
                 <div class="fan">
                     <h3 id="Living-room-fan">Living Room Fan </h3>
@@ -127,12 +140,16 @@
                     
                 </div>
                 <div class="temp">
-                    <h4 class="current-temp">Current Temperature is <span id="current-temp-bed-room">15</span></h4>
-                    <h4 class="desired-temp">
-                        Set Desired Temperature
+                    <div class="current-temp">
+                        <h4>Current Temperature is <span id="current-temp-bed-room">15</span></h4>
+                    </div>
+                    <div class="desired-temp-header">
+                        <h4 >Set Desired Temperature</h4>
+                    </div>
+                    <div class="desired-temp-slider">
                         <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="bed-room-desired-temp">
                         <span id="temp-value">15</span>
-                    </h4>
+                    </div>
                 </div>
             </div>
             <div id="garage" class="controlling-places">

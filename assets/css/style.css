@@ -39,13 +39,12 @@ body{
 }
 
 /*All the places styling*/
-.controlling-places{
-    
+.controlling-places{ 
     clear: both;
     width: 80%;
     height: auto;
     border: 1px solid whitesmoke;
-    margin: auto;
+    margin: 2rem;
 }
 
 .control-header{
@@ -59,12 +58,12 @@ body{
     margin: 2rem 1rem;
     
 }
-.header-light{
+.header-light {
     float: left;
     
 }
 
-.light-img{
+.light-img .desired-temp{
     float:  right; 
     
 }
@@ -75,16 +74,24 @@ body{
 }
 
 /*styling all the temp header bottons img*/
-.temp h4, .temp input, .temp span{
-    display: inline-block;
-    margin: 2rem 1rem;
+.temp{
+    display: flex;
+    
+}
+.current-temp {
+    float: right;
+    
+}
+.desired-temp-slider {
+     display: flex;
+    float: left;
+}
+.desired-temp-header { 
+    
+    margin: 0 auto;
+   
 }
 
-
-/*Overriding the margin left value for desired-temp  */
- #places-wrapper .temp .desired-temp{
-    margin-left: 40%;
-}
 
 /*styling all the fan header bottons img*/
 .fan{
