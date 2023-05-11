@@ -26,8 +26,6 @@ body{
 #header h1{
     justify-content: center;
     text-align: center;
-    height: 100%;
-    width: 100%;
 }
 
 /*logo styling*/
@@ -46,6 +44,7 @@ body{
 
 /*All the places styling*/
 .controlling-places{ 
+    text-align: center;
     clear: both;
     width: 80%;
     height: auto;
@@ -53,14 +52,18 @@ body{
     border-radius: 20%;
     margin: 2rem;
     padding: 2rem;
+}
 
+.control-header {
+    display: inline-block;
+    border: whitesmoke 2px solid;
+    border-style: inset;
+    border-radius: 40%;
+    padding: 1rem;
+    min-width: 10rem;
+    margin: 2rem;
+}
     
-}
-
-.control-header{
-    text-align: center;
-    margin: 1rem auto 4rem auto;
-}
 
 
 /*styling all the lights header bottons img*/
