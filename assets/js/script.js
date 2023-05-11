@@ -130,9 +130,11 @@ function toggleSwitch(ob){
                 if(ob.value ==='1'){     
                     document.getElementById('bed-room-light-img').style.background= 'yellow';
                     document.getElementById('bed-room-light').style.background= 'green';
+                    document.getElementById('bed-room-light-span').innerHTML= 'ON';
                 } else{
                     document.getElementById('bed-room-light-img').style.background= 'gray';
                     document.getElementById('bed-room-light').style.background= 'red';
+                    document.getElementById('bed-room-light-span').innerHTML= 'OFF';
                     }
             break;
 
@@ -141,9 +143,11 @@ function toggleSwitch(ob){
                 if(ob.value ==='1'){     
                     document.getElementById('garage-light-img').style.background= 'yellow';
                     document.getElementById('garage-light').style.background= 'green';
+                    document.getElementById('garage-light-span').innerHTML= 'ON';
                 } else{
                     document.getElementById('garage-light-img').style.background= 'gray';
                     document.getElementById('garage-light').style.background= 'red';
+                    document.getElementById('garage-light-span').innerHTML= 'OFF';
                     }
             break;
 
