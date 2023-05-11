@@ -177,17 +177,17 @@ function sliderReader(ob){
 
         /*setting the whole house temp */    
         case 'whole-house-desired-temp':
-            document.getElementById('whole-house-temp-value').innerHTML=  document.getElementById('whole-house-temp-slider').value;
+            document.getElementById('whole-house-temp-value').innerHTML=  document.getElementById('whole-house-temp-slider').value + '°';
         break;
 
         /*setting the kitchen temp */
         case 'kitchen-desired-temp':
-            document.getElementById('kitchen-temp-value').innerHTML=  document.getElementById('kitchen-temp-slider').value;
+            document.getElementById('kitchen-temp-value').innerHTML=  document.getElementById('kitchen-temp-slider').value + '°';
         break;
 
         /*setting the living room temp */
         case 'living-room-desired-temp':
-            document.getElementById('living-room-temp-value').innerHTML=  document.getElementById('living-room-temp-slider').value;
+            document.getElementById('living-room-temp-value').innerHTML=  document.getElementById('living-room-temp-slider').value + '°';
         break;
 
         /*setting the living room fan speed */
@@ -200,7 +200,7 @@ function sliderReader(ob){
 
         /*setting the bed room temp */
         case 'bed-room-desired-temp':
-            document.getElementById('bed-room-temp-value').innerHTML=  document.getElementById('bed-room-temp-slider').value;
+            document.getElementById('bed-room-temp-value').innerHTML=  document.getElementById('bed-room-temp-slider').value + '°';
         break;
 
         default:
