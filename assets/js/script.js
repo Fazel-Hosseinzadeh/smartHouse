@@ -65,10 +65,12 @@ function toggleSwitch(ob){
                     document.getElementById('whole-house-fans-img').style.background= 'blue';
                     document.getElementById('whole-house-fans').style.background= 'green';
                     document.getElementById('whole-house-fans-span').innerHTML= 'ON';
+                    document.getElementById('whole-house-fans-img').classList.add('run');
                 } else{
                     document.getElementById('whole-house-fans-img').style.background= 'gray';
                     document.getElementById('whole-house-fans').style.background= 'red';
                     document.getElementById('whole-house-fans-span').innerHTML= 'OFF';
+                    document.getElementById('whole-house-fans-img').classList.remove('run');
                     }
             break;
 

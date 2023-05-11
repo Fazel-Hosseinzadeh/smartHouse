@@ -167,5 +167,13 @@ body{
     height: 5rem;
 }
 
-
+/*any element with class fan-img which has class run will execute this animation */
+.fan-img .run{
+    animation: rotate 3s linear infinite;
+}
+/*animation for fan */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
