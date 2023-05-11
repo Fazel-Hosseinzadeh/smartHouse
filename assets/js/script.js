@@ -5,6 +5,8 @@
  */
 document.addEventListener('DOMContentLoaded' , function(){
 
+// call the rndFunc function every 8 seconds
+setInterval(rndFunc, 8000);
     /*Initially the fan speed slider for living room is disabled*/
     document.getElementById('living-room-fan-speed').disabled = true;
 
@@ -270,4 +272,14 @@ function fanStop(ob1){
         }
 
     }
+}
+
+
+function rndFunc(){
+  let currentTempElements = document.getElementsByClassName('current-temp-span');
+  for (currnetTemp of currentTempElements ){
+    // generate a random number between 13 and 22
+    currnetTemp.innerHTML=  Math.floor(Math.random() * 10) + 13 ;
+  }
+  
 }
