@@ -90,9 +90,11 @@ function toggleSwitch(ob){
                 if(ob.value ==='1'){     
                     document.getElementById('living-room-light1-img').style.background= 'yellow';
                     document.getElementById('living-room-light1').style.background= 'green';
+                    document.getElementById('living-room-light1-span').innerHTML= 'ON';
                 } else{
                     document.getElementById('living-room-light1-img').style.background= 'gray';
                     document.getElementById('living-room-light1').style.background= 'red';
+                    document.getElementById('living-room-light1-span').innerHTML= 'OFF';
                     }
             break;
 
@@ -101,9 +103,11 @@ function toggleSwitch(ob){
                 if(ob.value ==='1'){     
                     document.getElementById('living-room-light2-img').style.background= 'yellow';
                     document.getElementById('living-room-light2').style.background= 'green';
+                    document.getElementById('living-room-light2-span').innerHTML= 'ON';
                 } else{
                     document.getElementById('living-room-light2-img').style.background= 'gray';
                     document.getElementById('living-room-light2').style.background= 'red';
+                    document.getElementById('living-room-light2-span').innerHTML= 'OFF';
                     }
             break;
             /*controling the living room fan */
@@ -112,10 +116,12 @@ function toggleSwitch(ob){
                     document.getElementById('living-room-fan-img').style.background= 'blue';
                     document.getElementById('living-room-fan').style.background= 'green';
                     document.getElementById('living-room-fan-speed').disabled = false;
+                    document.getElementById('living-room-fan-span').innerHTML= 'ON';
                 } else{
                     document.getElementById('living-room-fan-img').style.background= 'gray';
                     document.getElementById('living-room-fan').style.background= 'red';
                     document.getElementById('living-room-fan-speed').disabled = true;
+                    document.getElementById('living-room-fan-span').innerHTML= 'OFF';
                     }
             break;
 
