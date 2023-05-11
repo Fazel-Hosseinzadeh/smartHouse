@@ -169,13 +169,13 @@ body{
 
 /*any element with class fan-img which has class run(#) will execute these animations */
 .fan-img .run1{
-    animation: rotate 3s linear infinite;
+    animation: rotate 0.8s linear infinite;
 }
 .fan-img .run2{
-    animation: rotate 2s linear infinite;
+    animation: rotate 0.5s linear infinite;
 }
 .fan-img .run3{
-    animation: rotate 1s linear infinite;
+    animation: rotate 0.2s linear infinite;
 }
 /*animation for fan */
 @keyframes rotate {
