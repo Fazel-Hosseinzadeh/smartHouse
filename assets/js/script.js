@@ -44,8 +44,10 @@ function toggleSwitch(ob){
     if(ob.getAttribute('data-type')==='whole-house-lights'){
         if(ob.value ==='1'){     
         document.getElementById('whole-house-lights-img').style.background= 'yellow';
-        } else{
+        document.getElementById('whole-house-lights').style.background= 'green';
+    } else{
             document.getElementById('whole-house-lights-img').style.background= 'gray';
+            document.getElementById('whole-house-lights').style.background= 'red';
         }
         
     }
