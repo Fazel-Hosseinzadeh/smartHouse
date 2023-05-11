@@ -93,6 +93,16 @@ body{
 .desired-temp-header { 
     margin: 0 auto;
 }
+/*style for current temps */
+.temp .current-temp span{
+    background: white;
+    border: black 1px solid;
+    border-radius: 50%;
+    font-size: 200%;
+    color: brown;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
 
 
 /*styling all the fan header bottons img*/
