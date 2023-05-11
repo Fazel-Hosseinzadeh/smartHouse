@@ -119,6 +119,7 @@ function toggleSwitch(ob){
                     document.getElementById('living-room-fan').style.background= 'green';
                     document.getElementById('living-room-fan-speed').disabled = false;
                     document.getElementById('living-room-fan-span').innerHTML= 'ON';
+                    fanRun(ob);
                 } else{
                     document.getElementById('living-room-fan-img').style.background= 'gray';
                     document.getElementById('living-room-fan').style.background= 'red';
@@ -181,6 +182,7 @@ function sliderReader(ob){
         /*setting the living room fan speed */
         case 'living-room-fan-speed':
             document.getElementById('living-room-fan-speed-value').innerHTML=  document.getElementById('living-room-fan-speed').value;
+            fanRun(ob);
         break;
 
         /*setting the bed room temp */
@@ -195,6 +197,18 @@ function sliderReader(ob){
     
 }
 
-function lightOnOff(){
-
+function fanRun(ob1){
+    if(document.getElementById('living-room-fan-speed').value ==='3'){
+        document.getElementById('living-room-fan-img' ).classList.remove('run2');
+        document.getElementById('living-room-fan-img' ).classList.remove('run1');
+        document.getElementById('living-room-fan-img' ).classList.add('run3');
+    } else if(document.getElementById('living-room-fan-speed').value ==='2'){
+        document.getElementById('living-room-fan-img' ).classList.remove('run3');
+        document.getElementById('living-room-fan-img' ).classList.remove('run1');
+        document.getElementById('living-room-fan-img').classList.add('run2');
+    } else {
+        document.getElementById('living-room-fan-img').classList.add('run1');
+        document.getElementById('living-room-fan-img' ).classList.remove('run2');
+        document.getElementById('living-room-fan-img' ).classList.remove('run3');
+    }
 }
