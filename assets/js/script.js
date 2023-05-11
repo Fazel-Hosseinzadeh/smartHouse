@@ -5,49 +5,6 @@
  */
 document.addEventListener('DOMContentLoaded' , function(){
 
-    /*Initiating the whole house statuse*/
-    let wholeHouse=[
-        {lights: false,
-        image: 'gray'} , 
-        {curentTEmp: 15,
-        sliderTemp: 15},
-        {fan: false ,
-        fanSpeed: 1}
-        ];
-
-    /*Initiating the kitchen statuse*/
-    let kitchen =[
-        {light: false,
-        image: 'gray'} , 
-        {curentTEmp: 15,
-        sliderTemp: 15}
-        ];
-    /*Initiating the livingRoom statuse*/
-    let livingRoom=[
-        {light1: false,
-        image: 'gray'} , 
-        {light2: false,
-        image: 'gray'} ,
-        {curentTEmp: 15,
-        sliderTemp: 15} ,
-        {fan: false,
-        sliderSpeed: 1}
-        ];
-    /*Initiating the bedRoom statuse*/
-    let bedRoom=[
-        {light: false,
-        image: 'gray'} , 
-        {curentTEmp: 15,
-        sliderTemp:15}
-        ];
-    /*Initiating the garage statuse*/
-    let garage=[
-        {light: false,
-        image: 'gray'} 
-        ];
-        console.log(garage);
-
-
     let switchs = document.getElementsByTagName('input');
     for (let swt of switchs){ 
         swt.addEventListener('click', function(){
@@ -63,7 +20,7 @@ document.addEventListener('DOMContentLoaded' , function(){
                 case 'bed-room-light':
                 case 'garage-light':
                     
-                    toggleSwitch(swType,this.value);
+                    toggleSwitch(this);
                 break;
                 /*in case a slider is clicked */
                 case 'whole-house-desired-temp':
@@ -71,7 +28,7 @@ document.addEventListener('DOMContentLoaded' , function(){
                 case 'living-room-desired-temp':
                 case 'living-room-fan-speed':
                 case 'bed-room-desired-temp':
-                    sliderReader(swType);
+                    sliderReader(this);
                 break;
 
             default:
@@ -83,13 +40,22 @@ document.addEventListener('DOMContentLoaded' , function(){
     })
 
 
-function toggleSwitch(dataType, val){
+function toggleSwitch(ob){
+    if(ob.getAttribute('data-type')==='whole-house-lights'){
+        
+        if(ob.value ==='1'){     
+        document.getElementById('whole-house-lights-img').style.background= 'yellow';
+        } else{
+            document.getElementById('whole-house-lights-img').style.background= 'gray';
+        }
+        
+    }
 
     
     }
 
 
-function sliderReader(dataType){
+function sliderReader(ob){
     
     
 }
