@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded' , function(){
 
 function toggleSwitch(ob){
     if(ob.getAttribute('data-type')==='whole-house-lights'){
-        
         if(ob.value ==='1'){     
         document.getElementById('whole-house-lights-img').style.background= 'yellow';
         } else{

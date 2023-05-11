@@ -50,6 +50,7 @@ body{
 
 .control-header{
     text-align: center;
+    margin: 2rem;
 }
 
 /*styling all the lights header bottons img*/
@@ -60,17 +61,17 @@ body{
 }
 .header-light{
     float: left;
-    width: 30%;
+    
 }
 
 .light-img{
     float:  right; 
-    width: 30%;
+    
 }
 
 .light-input{
     margin: 0 auto;
-    width: 30%;
+    
 }
 
 /*styling all the temp header bottons img*/
