@@ -354,26 +354,47 @@ body{
             width: 120%;
             margin:1rem auto;
           }
+    
+          /*reducing img size*/
+        .fan-img, .light-img{
+            width: 50px ;
+            height: 50px;
+        }
+
+        /*override sliders width*/
+        .switch-slider, .fan-switch-slider{
+        width: 40px;
+        height: 20px;
+        } 
+        
+        .desired-temp-slider input{
+            width: 75px;
+            height: 20px;
+        }
+
+        #living-room-fan-speed{
+            width: 60px;
+        }
     }
 
     /* medai query for smaller Mobile */
     @media screen and (max-width :550px){
-        body{
-            max-width: 300px;
+    body{
+        max-width: 300px;
+    }
+    #header {
+        margin: 1rem 0 0 30%;
+        font-size: 55%;
         }
-        #header {
-            margin: 1rem 0 0 30%;
-            font-size: 55%;
-            }
-            #header img{
-            width: 140%;
-            margin:1rem auto;
-            }
+        #header img{
+        width: 140%;
+        margin:1rem auto;
+        }
 
-            /*reducing whole fonts in smaller screen*/
-            .header-light, .light-input, .current-temp h3,.desired-temp-header,#current-temp-span, .fan-header, .fan-switch{
-            font-size: 80%;
-            }
+        /*reducing whole fonts in smaller screen*/
+        .header-light, .light-input, .current-temp h3,.desired-temp-header,#current-temp-span, .fan-header, .fan-switch{
+        font-size: 80%;
+        }
         /*reducing img size*/
         .fan-img, .light-img{
             width: 45px ;
