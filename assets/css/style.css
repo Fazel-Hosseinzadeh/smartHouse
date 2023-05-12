@@ -374,6 +374,27 @@ body{
             .header-light, .light-input, .current-temp h3,.desired-temp-header,#current-temp-span, .fan-header, .fan-switch{
             font-size: 80%;
             }
+        /*reducing img size*/
+        .fan-img, .light-img{
+            width: 45px ;
+            height: 45px;
+        }
+
+        /*override sliders width*/
+        .switch-slider, .fan-switch-slider{
+        width: 35px;
+        height: 15px;
+        } 
+        
+        .desired-temp-slider input{
+            width: 65px;
+            height: 15px;
+        }
+
+        #living-room-fan-speed{
+            width: 50px;
+        }
+
 
         }
         /* medai query for smaller Mobile */
@@ -420,3 +441,4 @@ body{
             width: 40px;
         }
 
+    }
