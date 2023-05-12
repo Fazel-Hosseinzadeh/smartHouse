@@ -325,9 +325,11 @@ body{
     }
     #header {
         margin: 1rem 10% 0 20%;
+        font-size: 75%;
       }
       #header img{
         width: 80%;
+        margin:1rem auto;
       }
     #living-room-fan-span, #living-room-fan{
         display: block;
@@ -338,3 +340,39 @@ body{
     }
 
 }
+
+    /* medai query for  Mobile */
+    @media screen and (max-width :625px){
+        body{
+            max-width: 400px;
+        }
+        #header {
+            margin: 1rem 0 0 30%;
+            font-size: 60%;
+          }
+          #header img{
+            width: 120%;
+            margin:1rem auto;
+          }
+    }
+
+        /* medai query for smaller Mobile */
+        @media screen and (max-width :550px){
+            body{
+                max-width: 300px;
+            }
+            #header {
+                margin: 1rem 0 0 30%;
+                font-size: 55%;
+              }
+              #header img{
+                width: 140%;
+                margin:1rem auto;
+              }
+
+              /*reducing whole fonts in smaller screen*/
+              .header-light, .light-input, .current-temp,.desired-temp-header,#current-temp-span, .fan-header, .fan-switch{
+                font-size: 80%;
+              }
+
+            }
