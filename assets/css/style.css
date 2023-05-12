@@ -14,6 +14,11 @@
 body{
     background: rgb(16, 51, 62);
     color: whitesmoke;
+    width: 90%;
+    min-height: 100vh;
+    max-width: 2200px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /*header styling*/
@@ -264,4 +269,10 @@ body{
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+/* medai query for Mobile */
+@media screen and (max-width :550px){
+
 }
