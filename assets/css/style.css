@@ -54,6 +54,7 @@ body{
     padding: 2rem;
 }
 
+/*style header of each place  */
 .control-header {
     display: inline-block;
     border: whitesmoke 2px solid;
@@ -64,8 +65,6 @@ body{
     margin: 2rem;
 }
     
-
-
 /*styling all the lights header bottons img*/
 .light{
     display: flex;
@@ -126,9 +125,7 @@ body{
     padding: 0.3rem;
     display: inline-block;
     width: 2rem;
-    
 }
-
 
 /*style for fan speed  slider spans */
 #living-room-fan-speed-value{
@@ -221,6 +218,8 @@ body{
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: 0.3s; 
     transition: opacity 0.3s;
+    position: relative;
+    top: +10px;
   }
 
 
