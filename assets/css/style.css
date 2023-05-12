@@ -125,7 +125,8 @@ body{
     min-height: 2.5rem;
 }
 
-.temp .desired-temp-slider span, #living-room-fan-speed-value{
+/*style for temp slider spans */
+.temp .desired-temp-slider span{
     background: #621a5a;
     font-size: 150%;
     border: white 1px solid;
@@ -135,6 +136,14 @@ body{
     min-width: 2.5rem;
     min-height: 2.5rem;
     
+}
+/*style for fan speed  slider spans */
+#living-room-fan-speed-value{
+    background: blue;
+    border: white 1px solid;
+    border-radius: 20%;
+    margin-left: 1rem;
+    padding: 0 0.3rem;
 }
 
 .temp .desired-temp-slider span{
