@@ -280,8 +280,40 @@ body{
     max-width: 900px;
  
 }
-/*style light headers*/
+/*style all the places font size*/
 #whole-house, #kitchen, #living-room, #bed-room, #garage{
     font-size: 80%;
 }
 }
+
+
+/* medai query for smaller tablet */
+@media screen and (max-width :975px){
+
+    /*style body*/
+    body{
+        max-width: 800px;
+     
+    }
+    /*style for showing the temp items in column*/
+    .temp{
+        flex-direction: column;
+    }
+.current-temp, .desired-temp-header, .desired-temp-slider{
+    margin: 1rem auto;
+}
+    /*style for showing the fan items in column*/
+    .fan{
+        flex-direction: column;
+    }
+    .fan-header, .fan-switch, .fan-img{
+        float: left;
+    }
+    .fan-header, .fan-switch{
+        margin: 0.5rem auto;
+    }
+
+    .fan-img{
+        margin: auto;
+    }
+    }
