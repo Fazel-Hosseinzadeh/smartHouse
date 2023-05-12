@@ -51,7 +51,8 @@ body{
     border: 1px solid whitesmoke;
     border-radius: 20%;
     margin: 2rem;
-    padding: 2rem;
+    padding: 2rem 5rem 5rem 5rem;
+
 }
 
 /*style header of each place  */
@@ -219,7 +220,7 @@ body{
     -webkit-transition: 0.3s; 
     transition: opacity 0.3s;
     position: relative;
-    top: +10px;
+    top: 10px;
   }
 
 
