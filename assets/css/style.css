@@ -117,7 +117,7 @@ body{
 }
 
 /*style for current temps */
-.temp .current-temp span{
+.temp .current-temp span, .temp .desired-temp-slider span{
     background: white;
     border: black 1px solid;
     border-radius: 50%;
@@ -128,16 +128,11 @@ body{
     min-height: 2.5rem;
 }
 
+
 /*style for temp slider spans */
 .temp .desired-temp-slider span{
-    background: blue;
-    font-size: 150%;
-    border: white 1px solid;
-    border-radius: 50%;
-    padding: 0.2rem;
-    margin-left: 1rem;
-    min-width: 2.2rem;
-    min-height: 2.2rem;
+    position: relative;
+    top: -20px;
 }
 /*style for fan speed  slider spans */
 #living-room-fan-speed-value{
@@ -148,10 +143,7 @@ body{
     padding: 0 0.3rem;
 }
 
-.temp .desired-temp-slider span{
-    position: relative;
-    top: -20px;
-}
+
 
 
 /*styling all the fan header bottons img*/
