@@ -356,23 +356,67 @@ body{
           }
     }
 
+    /* medai query for smaller Mobile */
+    @media screen and (max-width :550px){
+        body{
+            max-width: 300px;
+        }
+        #header {
+            margin: 1rem 0 0 30%;
+            font-size: 55%;
+            }
+            #header img{
+            width: 140%;
+            margin:1rem auto;
+            }
+
+            /*reducing whole fonts in smaller screen*/
+            .header-light, .light-input, .current-temp h3,.desired-temp-header,#current-temp-span, .fan-header, .fan-switch{
+            font-size: 80%;
+            }
+
+        }
         /* medai query for smaller Mobile */
-        @media screen and (max-width :550px){
-            body{
-                max-width: 300px;
+    @media screen and (max-width :450px){
+        body{
+            max-width: 150px;
+        }
+        #header {
+            margin: 0;
             }
-            #header {
-                margin: 1rem 0 0 30%;
-                font-size: 55%;
-              }
-              #header img{
-                width: 140%;
-                margin:1rem auto;
-              }
-
-              /*reducing whole fonts in smaller screen*/
-              .header-light, .light-input, .current-temp,.desired-temp-header,#current-temp-span, .fan-header, .fan-switch{
-                font-size: 80%;
-              }
-
+        #header img{
+        width: 200%;
+        margin-left: 1rem;
+        }
+        #header h1{
+            margin-left: 10rem ;
+            font-size: 20px;
+            width: 100%;
             }
+        /*reduce the size of each section header*/
+        .control-header{
+            padding: 2px;
+            margin: 10px auto;
+            position: relative;
+            right: 10%;
+        }
+        /*reducing img size*/
+        .fan-img, .light-img{
+            width: 30px ;
+            height: 30px;
+        }
+        /*override sliders width*/
+        .switch-slider, .fan-switch-slider{
+        width: 30px;
+        height: 10px;
+        } 
+        
+        .desired-temp-slider input{
+            width: 70px;
+            height: 15px;
+        }
+
+        #living-room-fan-speed{
+            width: 40px;
+        }
+
