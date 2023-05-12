@@ -127,7 +127,7 @@ body{
 
 /*style for temp slider spans */
 .temp .desired-temp-slider span{
-    background: #621a5a;
+    background: blue;
     font-size: 150%;
     border: white 1px solid;
     border-radius: 50%;
@@ -135,7 +135,6 @@ body{
     margin-left: 1rem;
     min-width: 2.5rem;
     min-height: 2.5rem;
-    
 }
 /*style for fan speed  slider spans */
 #living-room-fan-speed-value{
@@ -223,7 +222,7 @@ body{
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     height: 1rem; 
-    background: rgb(40, 47, 137);
+    background: blueviolet;
     border: white 1px solid;
     border-radius: 10%;
     outline: none; /* Remove outline */
