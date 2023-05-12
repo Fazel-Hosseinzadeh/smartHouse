@@ -339,6 +339,12 @@ body{
         margin: 0.5rem auto;
     }
 
+    /*override sliders width*/
+    .switch-slider, .fan-switch-slider{
+        width: 45px;
+        height: 25px;
+        } 
+
 }
 
     /* medai query for  Mobile */
