@@ -277,7 +277,7 @@ function fanStop(ob1){
 
 function rndFunc(){
   let currentTempElements = document.getElementsByClassName('current-temp-span');
-  for (currnetTemp of currentTempElements ){
+  for (let currnetTemp of currentTempElements ){
     // generate a random number between 13 and 22
     currnetTemp.innerHTML=  Math.floor(Math.random() * 10) + 13 + '°';
   }
