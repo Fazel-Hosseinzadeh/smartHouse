@@ -73,6 +73,7 @@ body{
 }
 .header-light {
     float: left;
+    font-size: 120%;
 }
 
 .light-img .desired-temp{
@@ -160,6 +161,7 @@ body{
 
 .fan-header{
     float: left;
+    font-size: 120%;
 }
 
 .fan-img{
