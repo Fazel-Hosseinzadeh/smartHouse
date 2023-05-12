@@ -98,12 +98,13 @@ body{
     display: flex;
 }
 .current-temp {
-    float: right;
-    
+    float: left;
+    font-size: 120%;
 }
 .desired-temp-slider {
     display: flex;
-    float: left;
+    float: right;
+    
 }
 .desired-temp-header { 
     margin: 0 auto;
@@ -118,7 +119,6 @@ body{
     background: white;
     border: black 1px solid;
     border-radius: 50%;
-    font-size: 150%;
     color: brown;
     margin-left: 1rem;
     padding: 0.5rem;
