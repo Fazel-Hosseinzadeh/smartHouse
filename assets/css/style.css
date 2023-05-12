@@ -293,7 +293,6 @@ body{
     /*style body*/
     body{
         max-width: 800px;
-     
     }
     /*style for showing the temp items in column*/
     .temp{
@@ -317,3 +316,25 @@ body{
         margin: auto;
     }
     }
+
+
+    /* medai query for smaller tablet */
+@media screen and (max-width :725px){
+    body{
+        max-width: 500px;
+    }
+    #header {
+        margin: 1rem 10% 0 20%;
+      }
+      #header img{
+        width: 80%;
+      }
+    #living-room-fan-span, #living-room-fan{
+        display: block;
+    } 
+    
+    #living-room-fan{
+        margin: 0.5rem auto;
+    }
+
+}
