@@ -11,31 +11,31 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 
 ##  Table of Contents
 
-1. [Project Goals](#1-project-goals)
+1. [Project Goals](#project-goals)
     - User Goals
     - Site Owner Goals
 
-2. [User Experience](#2-user-experience)
+2. [User Experience](#user-experience)
 
-3. [Design](#3-design)
+3. [Design](#design)
 
-4. [Technologies Used](#4-technologies-used)
+4. [Technologies Used](#technologies-used)
 
-5. [Features](#5-features)
+5. [Features](#features)
 
-6. [Testing](#6-testing)
+6. [Testing](#testing)
 
-7. [Bugs](#7-bugs)
+7. [Bugs](#bugs)
 
-8. [Deployment](#8-deployment)
+8. [Deployment](#deployment)
 
-9. [Credits](#9-credits)
+9. [Credits](#credits)
 
-10. [Acknowledgments](#10-acknowledgments)
+10. [Acknowledgments](#acknowledgments)
 
 ---
 
-## 1.  Project Goals 
+##  Project Goals 
 
 
 ### User Goals
@@ -53,7 +53,7 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 
 ---
 
-## 2.   User Experience
+##   User Experience
 ### Target Audience
 -   Homeowners interested in smart home technology.
 -   Technology enthusiasts looking to explore smart home features.
@@ -80,7 +80,7 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 3.   Design
+##   Design
 
 ### Design Choices
 -   Clean and intuitive interface to ensure ease of use.
@@ -108,7 +108,7 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 4.   Technologies Used
+##   Technologies Used
 ### Languages
 -   HTML
 -   CSS
@@ -126,7 +126,7 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 5.   Features
+##   Features
 
 The site consists of a single-page application with multiple interactive sections, offering ten key features for smart home control.
 
@@ -228,7 +228,7 @@ Each feature is designed to provide a seamless and intuitive experience, ensurin
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 6.   Testing
+##   Testing
 **Validation**
 -   HTML: For validating our HTML codes, the W3C Markup Validation Service has been used. In the all pages there is no error.
    <details><summary>HTML Validation Home</summary>
@@ -276,22 +276,22 @@ Each feature is designed to provide a seamless and intuitive experience, ensurin
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 7.   Bugs
+##   Bugs
 
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 8.   Deployment
+##   Deployment
 
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 9.   Credits 
+##   Credits 
 
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
-## 10.  Acknowledgments
+##  Acknowledgments
 
 [Go Back to Table of Contents](#table-of-contents)
 
