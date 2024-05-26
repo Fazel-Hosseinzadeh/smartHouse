@@ -269,6 +269,21 @@ body{
 }
 
 
+/*Contact Us in footer */
+#contact-link{
+    float: right;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+
+    
+}
+
+#contact-link a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
 /*404 page content style */
 #page-not-found{
     margin: 2rem;
