@@ -12,6 +12,7 @@
 
 /*body styling*/
 body{
+    display: block;
     background: rgb(16, 51, 62);
     color: whitesmoke;
     width: 90%;
@@ -20,6 +21,7 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
+
 
 /*header styling*/
 #header{
@@ -326,16 +328,16 @@ body{
 
 
 /*contact form style */
-
-
 #contact-form{
    margin: 2rem;
 }
 
-#contact-form p ,#contact-form .form-input{
+#contact-form p ,#contact-form .form-label,
+#contact-form .form-control{
     margin: 1rem auto;
     display: block;
     font-size: 0.9rem;
+    width: 80vw;
 }
 
 #submit{
