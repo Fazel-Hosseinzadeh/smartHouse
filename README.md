@@ -54,12 +54,36 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 ---
 
 ## 2.   User Experience
-
+### Target Audience
+-   Homeowners interested in smart home technology.
+-   Technology enthusiasts looking to explore smart home features.
+-   Developers seeking to understand smart home integration.
+### User Requirements and Expectations
+-   A simple and intuitive navigation system.
+-   Quick and easy access to control lights, temperature, and fans.
+-   Real-time updates and responses from control interactions.
+-   A visually appealing design that works well on all screen sizes.
+-   An easy way to leave feedback and report issues.
+-   Accessibility features to accommodate various users.
+### User Stories
+1.  As a user, I want to be able to turn the lights on and off in any room easily.
+2.  As a user, I want to view the current temperature and set my desired temperature.
+3.  As a user, I want to control the fan speed in the living room.
+4.  As a user, I want the interface to be responsive and functional on my smartphone.
+5.  As a user, I want feedback confirming that my control actions (like turning on a light) have been executed.
+6.  As a user, I want to navigate between different rooms smoothly to control various devices.
+### Site Owner Stories
+7.  As a site owner, I want users to be able to contact us with suggestions or issues they encounter.
+8.  As a site owner, I want users to find information about our smart home solutions on social media platforms.
+9.  As a site owner, I want to showcase the seamless integration and functionality of smart home controls.
 
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
 ## 3.   Design
+
+
+
 
 [Go Back to Table of Contents](#table-of-contents)
 
