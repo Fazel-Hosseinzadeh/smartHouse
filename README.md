@@ -228,7 +228,7 @@ Each feature is designed to provide a seamless and intuitive experience, ensurin
 ---
 ##   Testing
 **Validation**
--   HTML: For validating our HTML codes, the W3C Markup Validation Service has been used. In the all pages there is no error.
+**HTML:** For validating our HTML codes, the W3C Markup Validation Service has been used. In the all pages there is no error.
    <details><summary>HTML Validation Home</summary>
 <img src="./documentation/html-val-home.jpg">
 </details>
@@ -241,19 +241,19 @@ Each feature is designed to provide a seamless and intuitive experience, ensurin
 <img src="./documentation/html-val-404.jpg">
 </details>
 
--   CSS: For validating our CSS codes, the W3C CSS Validation Service - Jigsaw has been used. It passed the test without any error.
+**CSS:** For validating our CSS codes, the W3C CSS Validation Service - Jigsaw has been used. It passed the test without any error.
 
 <details><summary>CSS Validation</summary>
 <img src="./documentation/css-val.jpg">
 </details>
 
--   JavaScript: JSHint Static Code Analysis Tool for JavaScript has been used to validate the Javascript codes. No significant issues were found.
+**JavaScript:** JSHint Static Code Analysis Tool for JavaScript has been used to validate the Javascript codes. No significant issues were found.
 
 <details><summary>JS Validation</summary>
 <img src="./documentation/js-val.jpg">
 </details>
 
--   Accessibility: The WAVE WebAIM web accessibility evaluation tool has been used to ensure the website met high accessibility standards. All pages pass without errors.
+**Accessibility:** The WAVE WebAIM web accessibility evaluation tool has been used to ensure the website met high accessibility standards. All pages pass without errors.
 
 <details><summary>Home</summary>
 <img src="./documentation/access-val-home.jpg">
