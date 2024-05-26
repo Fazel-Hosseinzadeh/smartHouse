@@ -19,7 +19,34 @@
          </div>
     </header>
     <section>
-        
+        <div id="form-container">
+                
+            <!-- Contact form -->
+            <form id="contact-form">
+                <fieldset>
+                    <legend>Contact Us</legend>
+
+                    <p>Here you can leave some feadback or 
+                        any sugguestion for us in order to improve our product.</p>
+                    <div class="form-input">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="email" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="message" class="form-label">Your Message:</label>
+                        <textarea class="form-control" id="message"  name="message" required></textarea>
+                    </div>
+                    <button id="submit" type="submit">Submit</button>
+                    <a  id ="contact-form-go-home-page" href="index.html" >Go to Home Page</a>
+                </fieldset>
+            </form>
+        </div>
+
     </section>
     <footer>
         <div id="footer">

@@ -308,6 +308,49 @@ body{
 }
 
 
+/*contact form style */
+
+
+#contact-form{
+   margin: 2rem;
+}
+
+#contact-form p ,#contact-form .form-input{
+    margin: 1rem auto;
+    display: block;
+    font-size: 0.9rem;
+}
+
+#submit{
+    background-color: darkcyan;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    font-weight:700 ;
+    display: block;
+    border: solid 1px whitesmoke;
+    border-radius: 15%;
+    color: black;
+}
+
+#contact-form-go-home-page{
+    text-decoration: none;
+    margin: 1rem auto;
+    display: block;
+    color: whitesmoke;
+}
+
+fieldset {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  /* styles for legend  */
+  legend {
+    padding: 5px;
+    border-bottom: 1px solid #white; 
+  }
+
 /*any element with class fan-img which has class run(#) will execute these animations */
 .fan-img .run1{
     animation: rotate 0.8s linear infinite;
