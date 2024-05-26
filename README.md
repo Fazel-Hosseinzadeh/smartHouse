@@ -12,6 +12,8 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 ##  Table of Contents
 
 1. [Project Goals](#project-goals)
+    - User Goals
+    - Site Owner Goals
 
 2. [User Experience](#user-experience)
 
@@ -34,6 +36,18 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 ---
 
 ## 1.  Project Goals 
+
+
+### User Goals
+-   Control the lighting, temperature, and fan in various rooms of a smart house.
+-   Access an intuitive interface to manage household utilities effectively.
+-   Monitor the current temperature and set the desired temperature easily.
+
+### Site Owner Goals
+-   Showcase the functionality of a smart home system.
+-   Demonstrate the integration of various controls in different rooms.
+-   Provide a seamless user experience through a well-designed interface.
+
 
 [Go Back to Table of Contents](#table-of-contents)
 
