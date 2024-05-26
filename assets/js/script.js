@@ -4,7 +4,7 @@
  * event listenrs to switchs and sliders
  */
 document.addEventListener('DOMContentLoaded' , function(){
-
+});
     
 // call the rndFunc function every 8 seconds
 setInterval(rndFunc, 8000);
@@ -49,9 +49,8 @@ for (let swt of switchs){
             break;
         }
         
-    })
+    });
 }
-})
 
 
 /**
