@@ -12,8 +12,6 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 ##  Table of Contents
 
 1. [Project Goals](#project-goals)
-    - User Goals
-    - Site Owner Goals
 
 2. [User Experience](#user-experience)
 
