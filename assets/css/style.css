@@ -335,10 +335,15 @@ body{
 
 #contact-form p ,#contact-form .form-label,
 #contact-form .form-control{
-    margin: 1rem auto;
+    margin: 1.5rem auto 1rem;
     display: block;
     font-size: 0.9rem;
     width: 70vw;
+    font-size: 1.1rem;
+}
+
+#contact-form .form-control{
+    padding: 1rem;
 }
 
 #submit{
