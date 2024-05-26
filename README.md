@@ -82,13 +82,46 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 ---
 ## 3.   Design
 
+### Design Choices
+-   Clean and intuitive interface to ensure ease of use.
+-   Consistent layout across different sections for uniformity.
+-   Responsive design to support various screen sizes.
 
+### Colour
+-   The background color is a dark, muted blue (rgb(16, 51, 62)) to ensure readability and focus on functionality.
+-   Text color is whitesmoke, ensuring high contrast and readability against the dark background.
+-   Highlight interactive elements with contrasting colors like red, blue, and blueviolet for sliders.
 
+### Fonts
+
+-   Google fonts 'Monofett' and 'Roboto Mono' for a modern and clear look.
+-   Sans-serif fonts for clarity and readability.
+-   Font sizes are adjusted for different devices to ensure readability across all screen sizes.
+
+### Structure
+-   **Whole House:** Controls for light, temperature, and fan.
+-   **Kitchen:** Controls for light and fan.
+-   **Living Room:** Controls for two lights, temperature, and a fan with speed settings.
+-   **Bedroom:** Controls for light and temperature.
+-   **Garage:** Control for light.
 
 [Go Back to Table of Contents](#table-of-contents)
 
 ---
 ## 4.   Technologies Used
+### Languages
+-   HTML
+-   CSS
+-   JavaScript
+### Frameworks & Tools
+-   Git
+-   GitHub
+-   Gitpod
+-   Font Awesome
+-   JSHint
+-   W3C Markup validation service
+-   W3C Jigsaw CSS validation service
+-   EmailJS
 
 [Go Back to Table of Contents](#table-of-contents)
 
