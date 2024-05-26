@@ -11,27 +11,27 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 
 ##  Table of Contents
 
-1. [Project Goals](#project-goals)
+1. [Project Goals](#1-project-goals)
     - User Goals
     - Site Owner Goals
 
-2. [User Experience](#user-experience)
+2. [User Experience](#2-user-experience)
 
-3. [Design](#design)
+3. [Design](#3-design)
 
-4. [Technologies Used](#technologies-used)
+4. [Technologies Used](#4-technologies-used)
 
-5. [Features](#features)
+5. [Features](#5-features)
 
-6. [Testing](#validation)
+6. [Testing](#6-validation)
 
-7. [Bugs](#Bugs)
+7. [Bugs](#7-Bugs)
 
-8. [Deployment](#deployment)
+8. [Deployment](#8-deployment)
 
-9. [Credits](#credits)
+9. [Credits](#9-credits)
 
-10. [Acknowledgments](#acknowledgments)
+10. [Acknowledgments](#10-acknowledgments)
 
 ---
 
@@ -127,6 +127,103 @@ The Smart House Dashboard Demo is a web-based application that showcases the pot
 
 ---
 ## 5.   Features
+
+The site consists of a single-page application with multiple interactive sections, offering ten key features for smart home control.
+
+### Header
+-   Featured on all sections:
+    +   Displays the smart house logo and the project title.
+-   User Story Covered: Ensures users can easily identify the project and navigate back to the main interface.
+
+<details><summary>Header</summary>
+<img src="./documentation/features-header.jpg">
+</details>
+
+### Footer
+-   Featured on all sections:
+    +   Provides links to social media and a contact form.
+-   User Story Covered: 7, 8
+
+<details><summary>Footer</summary>
+<img src="./documentation/features-footer.jpg">
+</details>
+
+### Whole House Control
+**Features:**
+-   Controls for light, temperature, and fan.
+-   User Stories Covered: 1, 2, 4, 5
+
+<details><summary>Whole House Control</summary>
+<img src="./documentation/features-whole-house.jpg">
+</details>
+
+### Kitchen Control
+**Features:**
+-   Controls for light and fan.
+-   User Stories Covered: 1, 4, 5
+
+<details><summary>Kitchen Control</summary>
+<img src="./documentation/features-kitchen.jpg">
+</details>
+
+### Living Room Control
+**Features:**
+-   Two separate light controls.
+-   Temperature display and slider to set the desired temperature.
+-   Fan control with a three-speed slider.
+-   User Stories Covered: 1, 2, 3, 4, 5
+
+<details><summary>Living Room Control</summary>
+<img src="./documentation/features-living-room.jpg">
+</details>
+
+### Bedroom Control
+**Features:**
+-   Controls for light and temperature.
+-   User Stories Covered: 1, 2, 4, 5
+
+<details><summary>Bedroom Control</summary>
+<img src="./documentation/features-bed-room.jpg">
+</details>
+
+### Garage Control
+**Features:**
+-   Control for light.
+-   User Stories Covered: 1, 4, 5
+
+<details><summary>Garage Control</summary>
+<img src="./documentation/features-garage.jpg">
+</details>
+
+### Contact Form
+**Features:**
+-   Allows users to provide feedback and report issues.
+-   User Story Covered: 7
+
+<details><summary>Contact Form</summary>
+<img src="./documentation/features-contact.jpg">
+</details>
+
+### Form Confirmation
+**Features:**
+-   Provides feedback to users after form submission with a button -    to return to the main interface.
+-   User Story Covered: 6
+
+<details><summary>Form Confirmation</summary>
+<img src="./documentation/features-contact-confirmation.jpg">
+</details>
+
+### 404 Message
+**Features:**
+-   Provides a way for users to return to the main interface after encountering a broken link.
+-   User Story Covered: Ensures smooth navigation and user experience even when errors occur.
+
+<details><summary>404 Message</summary>
+<img src="./documentation/features-404.jpg">
+</details>
+
+
+Each feature is designed to provide a seamless and intuitive experience, ensuring that users can efficiently control various aspects of their smart home environment.
 
 [Go Back to Table of Contents](#table-of-contents)
 
