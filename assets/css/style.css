@@ -284,6 +284,23 @@ body{
 }
 
 
+/*Contact form success message style*/
+#success-message{
+    margin: 2rem;
+}
+#success-message #go-home-success-message{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: gray;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px  whitesmoke solid;
+    border-radius: 15%;
+}
+
+
+
 /*404 page content style */
 #page-not-found{
     margin: 2rem;

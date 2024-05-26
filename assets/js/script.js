@@ -249,6 +249,8 @@ function fanRun(ob1){
 
     
 }
+
+
 function fanStop(ob1){
     if(ob1.getAttribute('data-type')==='living-room-fan'){   
         if(document.getElementById('living-room-fan-img').classList.contains('run3')){
@@ -282,4 +284,36 @@ function rndFunc(){
     currnetTemp.innerHTML=  Math.floor(Math.random() * 10) + 13 + '°';
   }
   
+}
+
+
+/**
+ * Sends data from form to email after the submiting, it calls the toggleThankYouMessage function
+ * with the help of official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
+ */
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault(); // prevents default submit event
+        emailjs.init("user_sDfoilwJnb34XAPqTGhKE");
+        emailjs.sendForm('smart-house', 'template_Ig5OP383', this)
+            .then(function () {
+                // success sending email
+            }, function (error) {
+                // error message
+                console.log('FAILED...', error);
+            });
+        toggleThankYouMessage();
+    });
+});
+
+/**
+ * Removes the forme and displays a thank you message on the contact page after form submision
+ */
+function toggleThankYouMessage() {
+    let html = `
+            <div id="success-message">
+            <p>Thank you for your feadback.</p>
+            <a id="go-home-success-message" href="index.html" >Go Back to Home Page</a>
+            </div>`;
+    document.getElementById('form-container').innerHTML = html;
 }
