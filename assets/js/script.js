@@ -4,7 +4,7 @@
  * event listenrs to switchs and sliders
  */
 document.addEventListener('DOMContentLoaded' , function(){
-});
+
     
 // call the rndFunc function every 8 seconds
 setInterval(rndFunc, 8000);
@@ -49,8 +49,10 @@ for (let swt of switchs){
             break;
         }
         
-    });
+    })
 }
+
+});
 
 
 /**
@@ -327,7 +329,8 @@ document.addEventListener('DOMContentLoaded', function () {
         emailjs.sendForm('smart-house', 'template_Ig5OP383', this)
             .then(function () {
                 // success sending email
-            }, function (error) {
+                console.log('succes');
+                        }, function (error) {
                 // error message
                 console.log('FAILED...', error);
             });
