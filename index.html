@@ -31,7 +31,8 @@
                     </div>
                     <div class="light-input">
                         <span id="whole-house-lights-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" data-type="whole-house-lights" id="whole-house-lights">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" 
+                        aria-label="Whole house lights" data-type="whole-house-lights" id="whole-house-lights">
                     </div>
                     <div class="light-img">
                         <img src="./assets/images/light.png" alt="light-bulb" class="light-img" id="whole-house-lights-img">
@@ -46,7 +47,8 @@
                         <h3>Set Desired Temperature</h3>
                     </div>
                     <div class="desired-temp-slider">
-                        <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="whole-house-desired-temp" id="whole-house-temp-slider">
+                        <input type="range" min="-5" step="1" max="35" value="16" class="temp"
+                        aria-label="set Whole house desired temprature" data-type="whole-house-desired-temp" id="whole-house-temp-slider">
                         <h3><span id="whole-house-temp-value">15°</span></h3>
                     </div>
                 </div>
@@ -56,7 +58,8 @@
                     </div>
                     <div class="fan-switch">
                         <span id="whole-house-fans-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="fan-switch-slider" data-type="whole-house-fans" id="whole-house-fans">
+                        <input type="range" min="0" step="1" max="1" value="0" class="fan-switch-slider"
+                        aria-label="Whole house fans" data-type="whole-house-fans" id="whole-house-fans">
                     </div>
                     <div class="fan-img">
                         <img src="./assets/images/fan.png" alt="fan" class="fan-img" id="whole-house-fans-img">
@@ -73,7 +76,8 @@
                     </div>
                     <div class="light-input">
                         <span id="kitchen-light-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" data-type="kitchen-light" id="kitchen-light">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" 
+                        aria-label="Kitchen lights" data-type="kitchen-light" id="kitchen-light">
                     </div>
                     <div class="light-img">
                         <img src="./assets/images/light.png" alt="light-bulb" class="light-img" id="kitchen-light-img">
@@ -89,7 +93,8 @@
                         </h3>
                     </div>
                     <div class="desired-temp-slider">
-                        <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="kitchen-desired-temp" id="kitchen-temp-slider">
+                        <input type="range" min="-5" step="1" max="35" value="16" class="temp"
+                        aria-label="set kitchen desired temprature" data-type="kitchen-desired-temp" id="kitchen-temp-slider">
                         <h3><span id="kitchen-temp-value">15°</span></h3>
                     </div>
                 </div>
@@ -104,7 +109,8 @@
                     </div>
                     <div class="light-input">
                         <span id="living-room-light1-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" data-type="living-room-light1" id="living-room-light1">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider"
+                        aria-label="living room light number 1" data-type="living-room-light1" id="living-room-light1">
                     </div>
                     <div class="light-img">
                         <img src="./assets/images/light.png" alt="light-bulb" class="light-img" id="living-room-light1-img">
@@ -116,7 +122,8 @@
                     </div>
                     <div class="light-input">
                         <span id="living-room-light2-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" data-type="living-room-light2" id="living-room-light2">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider"
+                        aria-label="living room light number 2" data-type="living-room-light2" id="living-room-light2">
                     </div>
                     <div class="light-img">
                         <img src="./assets/images/light.png" alt="light-bulb" class="light-img" id="living-room-light2-img">
@@ -130,7 +137,8 @@
                     <h3>Set Desired Temperature</h3>
                     </div>
                     <div class="desired-temp-slider">
-                        <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="living-room-desired-temp" id="living-room-temp-slider">
+                        <input type="range" min="-5" step="1" max="35" value="16" class="temp"
+                        aria-label="set living room desired temprature" data-type="living-room-desired-temp" id="living-room-temp-slider">
                         <h3><span id="living-room-temp-value">15°</span></h3>
                     </div>
                 </div>
@@ -140,9 +148,11 @@
                     </div>
                     <div class="fan-switch">
                         <span id="living-room-fan-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="fan-switch-slider" data-type="living-room-fan" id="living-room-fan">
+                        <input type="range" min="0" step="1" max="1" value="0" class="fan-switch-slider"
+                        aria-label="living room fan" data-type="living-room-fan" id="living-room-fan">
                         <span>SPEED</span>
-                        <input type="range" min="1" step="1" max="3" value="1" class="fan-slider" data-type="living-room-fan-speed" id="living-room-fan-speed">
+                        <input type="range" min="1" step="1" max="3" value="1" class="fan-slider"
+                        aria-labelledby="living-room-fan-speed-value" data-type="living-room-fan-speed" id="living-room-fan-speed">
                         <span id="living-room-fan-speed-value">1</span>
                     </div>
                     <div class="fan-img">
@@ -161,7 +171,8 @@
                     </div>  
                     <div class="light-input">
                         <span id="bed-room-light-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" data-type="bed-room-light" id="bed-room-light">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" 
+                        aria-label="bed room light" data-type="bed-room-light" id="bed-room-light">
                     </div>
                     <div class="light-img">
                         <img src="./assets/images/light.png" alt="light-bulb" class="light-img" id="bed-room-light-img">
@@ -176,7 +187,8 @@
                         <h3 >Set Desired Temperature</h3>
                     </div>
                     <div class="desired-temp-slider">
-                        <input type="range" min="-5" step="1" max="35" value="16" class="temp" data-type="bed-room-desired-temp" id="bed-room-temp-slider">
+                        <input type="range" min="-5" step="1" max="35" value="16" class="temp"
+                        aria-label="set bed room desired temprature" data-type="bed-room-desired-temp" id="bed-room-temp-slider">
                         <h3><span id="bed-room-temp-value">15°</span></h3>
                     </div>
                 </div>
@@ -191,7 +203,8 @@
                     </div>
                     <div class="light-input">
                         <span id="garage-light-span">OFF</span>
-                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider" data-type="garage-light" id="garage-light">
+                        <input type="range" min="0" step="1" max="1" value="0" class="switch-slider"
+                        aria-label="garage light" data-type="garage-light" id="garage-light">
                     </div>
                     <div class="light-img">
                         <img src="./assets/images/light.png" alt="light-bulb" class="light-img" id="garage-light-img">
